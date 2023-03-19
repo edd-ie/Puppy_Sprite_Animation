@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Varela%20Round');
+
+*{
+    font-family: 'Varela Round';
+    font-size:40px;
+}
+
+body{
+    background: url('../images/back2.png');
+    background-size: cover;
+}
+
+#canvas1{
+    position: absolute;
+    margin-top: 10;
+    padding-top: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+}
+
+.controls{
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.controls, select, option{
+    font-size: 25px;
+}
+
+label{
+    color: rgb(255, 251, 7);
+}
