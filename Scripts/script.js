@@ -17,7 +17,7 @@ const spriteHeight = 523;
 
 //Sets animation speed:
 let gameFrame = 0;
-const staggerAnimation = 5; // higher number = slow speed
+const staggerAnimation = 4; // higher number = slow speed
 
 //Shifting different animations
 const spriteAnimation = [];
@@ -27,11 +27,11 @@ const animationStates = [
         frames: 7,
     },
     {
-        name: 'jump',
+        name: 'fly',
         frames: 7,
     },
     {
-        name: 'fall',
+        name: 'dive',
         frames: 7,
     },
     {
